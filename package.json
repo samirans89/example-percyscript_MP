@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "http-server -s -p 8000",
+    "snapshots": "percy exec -- node snapshots.js"
+  },
+  "dependencies": {
+    "@percy/agent": "^0.28.2",
+    "todomvc-app-css": "^2.2.0",
+    "todomvc-common": "^1.0.2"
+  },
+  "devDependencies": {
+    "@percy/script": "^1.1.0",
+    "http-server": "^0.12.3"
+  }
+}

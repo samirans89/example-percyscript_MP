@@ -1,0 +1,9 @@
+version: 1
+snapshot:
+  widths: [1600]
+  enable-javascript: true
+agent:
+  asset-discovery:
+    allowed-hostnames:
+      - static.matterport.com
+      - cdn-1.matterport.com
